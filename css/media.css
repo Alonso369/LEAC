@@ -1,0 +1,79 @@
+@media screen and (min-width:480px) and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
+    header {
+        position: static;
+        height: auto;
+    }
+    .menu li {
+        display: block;
+    }
+    .banner {
+        position: static;
+        text-align: center;
+    }
+    .flexColumn {
+        flex-direction: column;
+    }
+    .banner img {
+        max-width: 50%;
+    }
+    .card-gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .secoes {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav {
+        flex-direction: column;
+    }
+    header {
+        position: static;
+        height: auto;
+    }
+    .menu li {
+        display: block;
+    }
+    .banner {
+        position: static;
+        text-align: center;
+    }
+    .flexColumn {
+        flex-direction: column;
+    }
+    .banner img {
+        max-width: 50%;
+    }
+    .card-gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .secoes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .h-2 {
+        grid-row: span 1;
+    }
+    .w-1 {
+        grid-column: span 1;
+    }
+    .w-2 {
+        grid-column: span 1;
+    }
+    .w-4 {
+        grid-column: span 1;
+    }
+    .mainDepoimento {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
